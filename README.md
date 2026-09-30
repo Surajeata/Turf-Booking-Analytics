@@ -4,15 +4,17 @@
 
 **# Dashboard Preview**
 
-!\[Turf Booking Analytics Dashboard](Screenshots/dashboard.png)
+
+
+**<img src="./Screenshots/dashboard.png" alt="Turf Booking Analytics Dashboard" width="900">**
 
 
 
-\### Filtered Dashboard Example
+**### Filtered Dashboard Example**
 
 
 
-!\[Filtered Dashboard](Screenshots/dashboard\_filtered.png)
+**<img src="./Screenshots/dashboard\_filtered.png" alt="Filtered Dashboard" width="900">**
 
 
 
