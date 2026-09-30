@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Credentials
+.env
+*password*
+*credentials*
+mysql_connection_test.py
+
+# Power BI temporary files
+~$*.pbix
+
+# OS files
+.DS_Store
+Thumbs.db
