@@ -8,6 +8,14 @@
 
 
 
+\### Filtered Dashboard Example
+
+
+
+!\[Filtered Dashboard](Screenshots/dashboard\_filtered.png)
+
+
+
 \# **Project Overview:** This project analyzes a synthetic turf booking dataset containing information about bookings, sports, booking types, booking status, dates, weather conditions, customer ratings, duration, hourly rates, and revenue. The analysis was used to build an interactive Power BI dashboard that allows users to explore booking performance and identify patterns across different dimensions.
 
 
