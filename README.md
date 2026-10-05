@@ -1,242 +1,112 @@
-\# **Turf Booking Analytics Dashboard:** An interactive data analytics project focused on analyzing turf booking patterns, revenue performance, customer behaviour, and operational insights using Python and Microsoft Power BI.
+#  Turf Booking Analytics Dashboard
 
+An interactive data analytics project focused on analyzing **turf booking patterns, revenue performance, customer behaviour, and operational insights** using Python and Microsoft Power BI.
 
+##  Dashboard Preview
 
-**# Dashboard Preview**
+![Turf Booking Analytics Dashboard](Screenshots/dashboard.png)
 
+### Filtered Dashboard
 
+![Filtered Dashboard](Screenshots/dashboard_filtered.png)
 
-**<img src="./Screenshots/dashboard.png" alt="Turf Booking Analytics Dashboard" width="900">**
+##  Project Overview
 
+This project analyzes a **synthetic turf booking dataset** containing information about bookings, sports, booking types, booking status, dates, weather conditions, customer ratings, duration, hourly rates, players, payment methods, and revenue.
 
+The analysis was used to build an interactive **Power BI dashboard** that allows users to explore booking performance and identify patterns across different dimensions.
 
-\# **Project Overview:** This project analyzes a synthetic turf booking dataset containing information about bookings, sports, booking types, booking status, dates, weather conditions, customer ratings, duration, hourly rates, and revenue. The analysis was used to build an interactive Power BI dashboard that allows users to explore booking performance and identify patterns across different dimensions.
+##  Objectives
 
+- Analyze overall turf booking performance
+- Understand booking trends across different hours and months
+- Compare bookings across sports
+- Analyze revenue by booking type
+- Examine cancellation rates under different weather conditions
+- Track completed, cancelled, and no-show bookings
+- Analyze customer ratings
+- Provide interactive filtering for deeper analysis
 
+##  Tools & Technologies
 
-**# Objectives**: 
+| Tool | Purpose |
+|---|---|
+| **Python** | Data analysis and visualization |
+| **Pandas** | Data manipulation and analysis |
+| **SQL / MySQL** | Database connectivity and data handling |
+| **Microsoft Power BI** | Interactive dashboard and visualization |
+| **CSV** | Dataset storage |
 
+##  Key Performance Indicators
 
+The dashboard tracks the following KPIs:
 
-\- Analyze overall turf booking performance
+- **Total Bookings**
+- **Cancelled Bookings**
+- **Completed Bookings**
+- **No-show Rate**
+- **Average Customer Rating**
+- **Total Revenue**
 
-\- Understand booking trends across different hours and months
+##  Dashboard Visualizations
 
-\- Compare bookings across sports
+The dashboard includes:
 
-\- Analyze revenue by booking type
+- **Bookings by Hour**
+- **Bookings by Sport**
+- **Monthly Revenue**
+- **Revenue by Booking Type**
+- **Cancellation Rate by Weather**
 
-\- Examine cancellation rates under different weather conditions
+##  Interactive Filters
 
-\- Track completed, cancelled, and no-show bookings
+Users can interact with the dashboard using:
 
-\- Analyze customer ratings
-
-\- Provide interactive filtering for deeper analysis
-
-
-
-**#** **Tools \& Technologies**:
-
-
-
-\- Python – Data analysis and visualization
-
-\- Pandas – Data manipulation and analysis
-
-\- SQL / MySQL – Database connectivity and data handling
-
-\- Microsoft Power BI – Interactive dashboard and data visualization
-
-\- CSV – Dataset storage
-
-
-
-**# Project Structure:**
-
-
-
-Turf-Booking-Analytics/
-
-│
-
-├── Turf\_Booking\_Analytics.pbix
-
-├── turf\_bookings\_synthetic.csv
-
-├── data\_analytics.py
-
-├── visualizations.py
-
-├── insights.py
-
-├── README.md
-
-└── .gitignore
-
-
-
-
-
-\# **Dataset:** The project uses a synthetic turf booking dataset.
-
-
-
-**The dataset contains fields related to:**
-
-\-Booking date
-
-\-Booking status
-
-\-Booking type
-
-\-Sport
-
-\-Customer rating
-
-\-Duration
-
-\-Hour
-
-\-Hourly rate
-
-\-Players
-
-\-Payment method
-
-\-Weather
-
-\-Month
-
-\-Revenue / booking amount
-
-
-
-The dataset is included in this repository as:
-
-**turf\_bookings\_synthetic.csv**
-
-
-
-**#** **Dashboard**: The Power BI dashboard provides an interactive view of the booking data.
-
-\# **Key Performance Indicators:**
-
-
-
-**The dashboard includes:**
-
-\-Total Bookings
-
-\-Cancelled Bookings
-
-\-Completed Bookings
-
-\-No-show Rate
-
-\-Average Customer Rating
-
-\-Total Revenue
-
-
-
-**Visualizations:**
-
-
-
-**The dashboard contains:**
-
-\-Bookings by Hour
-
-\-Bookings by Sport
-
-\-Monthly Revenue
-
-\-Revenue by Booking Type
-
-\-Cancellation Rate by Weather
-
-
-
-**Interactive Slicers:**
-
-
-
-**Users can filter the dashboard using:**
-
-\-Sport
-
-\-Month
-
-\-Booking Type
-
-\-Booking Status
-
-\-Booking Date
-
-
+- **Sport**
+- **Month**
+- **Booking Type**
+- **Booking Status**
+- **Booking Date**
 
 These filters dynamically update the dashboard visuals and KPIs.
 
+##  Dataset
 
+The project uses a synthetic turf booking dataset.
 
-**# How to Use:**
+### Dataset Fields
 
+- Booking Date
+- Booking Status
+- Booking Type
+- Sport
+- Customer Rating
+- Duration
+- Hour
+- Hourly Rate
+- Players
+- Payment Method
+- Weather
+- Month
+- Revenue / Booking Amount
 
+**Dataset:** `turf_bookings_synthetic.csv`
 
-1).Download or clone this repository.
+##  Project Structure
 
-2).Open Turf\_Booking\_Analytics.pbix using Microsoft Power BI Desktop.
-
-3).The CSV dataset is available in the repository for reference.
-
-4).Use the dashboard slicers to interact with the analysis.
-
-
-
-
-
-**### Do check it out.**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```text
+Turf-Booking-Analytics/
+│
+├── Turf_Booking_Analytics.pbix
+├── turf_bookings_synthetic.csv
+├── data_analytics.py
+├── visualizations.py
+├── insights.py
+├── README.md
+├── .gitignore
+│
+└── Screenshots/
+    ├── dashboard.png
+    ├── dashboard_filtered.png
+    ├── PowerBI.png
+    └── Slicers.png
